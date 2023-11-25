@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+ background-color: #F7F9F8;
+    .mynavbar{
+        display: flex;
+        gap: 450px;
+    }
+    .mynav{
+        display: flex;
+        justify-content: flex-end;
+        // background-color: aqua;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        ul{
+            li{
+                cursor: pointer;
+            }
+        }
+    }
+    width: 100%;
+        .collapseDiv{
+        // background-color: aquamarine;
+        display: flex;
+        justify-content: space-between;     
+        gap: 100px;  
+        ul{
+            display: flex;
+            gap: 60px;
+            
+        }
+        .orderbtn{
+            display: flex;
+            height: 60px;
+            width: 180px;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid red;
+            color: black;
+        }
+     }
+    
+}
+main{
+    background-image: url(/assets/img/h1_hero\ \(1\).png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    .discoveryopurstile{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 200px;
+        width: 1100px;
+       
+        
+        .textdiv{
+            width: 600px;
+
+        }
+        span{
+            color: #FF5600;
+
+        }
+        h1{
+            font-size: 80px;
+            font-weight: bolder; 
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        button{
+            width: 210px;
+            height: 60px;
+            border-radius: 8px;
+            border: none;
+            background-color: #FF5600;
+            color: white;
+        }
+
+    }
+    .chefsection{
+        p{
+            font-size: 16px;
+        }
+    }
+}

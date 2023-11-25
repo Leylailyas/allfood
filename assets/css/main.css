@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #F7F9F8;
+  width: 100%;
+}
+header .mynavbar {
+  display: flex;
+  gap: 450px;
+}
+header .mynav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+header .mynav ul li {
+  cursor: pointer;
+}
+header .collapseDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+header .collapseDiv ul {
+  display: flex;
+  gap: 60px;
+}
+header .collapseDiv .orderbtn {
+  display: flex;
+  height: 60px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  color: black;
+}
+
+main {
+  background-image: url(/assets/img/h1_hero\ \(1\).png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+main .discoveryopurstile {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 200px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .discoveryopurstile .textdiv {
+  width: 600px;
+}
+main .discoveryopurstile span {
+  color: #FF5600;
+}
+main .discoveryopurstile h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+main .discoveryopurstile button {
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: #FF5600;
+  color: white;
+}
+main .chefsection p {
+  font-size: 16px;
+}
